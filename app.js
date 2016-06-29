@@ -9,9 +9,10 @@ site.init({
   root: module,
   shortName: 'apostrophe-sandbox',
   hostName: 'apostrophe-sandbox',
-  title: 'Apostrophe Sandbox',
+  title: 'Digital Demand Center Sandbox',
   sessionSecret: 'apostrophe sandbox demo party',
   adminPassword: 'demo',
+  oembedWhitelist: ['wistia.com'],
 
   // Force a2 to prefix all of its URLs. It still
   // listens on its own port, but you can configure
@@ -138,5 +139,4 @@ site.init({
 
     callback(null);
   }
-
 });
